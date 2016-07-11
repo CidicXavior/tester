@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+// Ping test
+Route::get('/siteup/', "TestContoller@siteup");
